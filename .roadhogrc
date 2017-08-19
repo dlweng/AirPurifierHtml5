@@ -1,0 +1,20 @@
+{
+  "entry": "src/index.js",
+  "disableCSSModules": true,
+  "publicPath": "./",
+  "autoprefixer": {
+    "browsers": [
+      "iOS >= 8", "Android >= 4"
+    ]
+  },
+  "extraBabelPlugins": [
+    "transform-runtime"
+  ],
+  "env": {
+    "development": {
+      "extraBabelPlugins": [
+        "dva-hmr"
+      ]
+    }
+  }
+}

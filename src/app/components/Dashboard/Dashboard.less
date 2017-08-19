@@ -1,0 +1,27 @@
+.point-animation-left{
+  transition : left 7s cubic-bezier(0.4, 1, 0.2, 1) 0s, top 7s cubic-bezier(0.4, 0.0, 0.2, 1) 0s, transform 5s cubic-bezier(0.4, 0.0, 0.2, 1) 2s;
+  -moz-transition : left 7s cubic-bezier(0.4, 1, 0.2, 1) 0s, top 7s cubic-bezier(0.4, 0.0, 0.2, 1) 0s, transform 5s cubic-bezier(0.4, 0.0, 0.2, 1) 2s;
+  -webkit-transition : left 7s cubic-bezier(0.4, 1, 0.2, 1) 0s , top 7s cubic-bezier(0.4, 0.0, 0.2, 1) 0s, transform 5s cubic-bezier(0.4, 0.0, 0.2, 1) 2s;
+}
+.point-animation-right{
+  transition : left 7s cubic-bezier(0.4, 0.0, 0.2, 1) 0s, top 7s cubic-bezier(0.4, 1, 0.2, 1) 0s, transform 5s cubic-bezier(0.4, 0.0, 0.2, 1) 2s;
+  -moz-transition : left 7s cubic-bezier(0.4, 0.0, 0.2, 1) 0s, top 7s cubic-bezier(0.4, 1, 0.2, 1) 0s, transform 5s cubic-bezier(0.4, 0.0, 0.2, 1) 2s;
+  -webkit-transition : left 7s cubic-bezier(0.4, 0.0, 0.2, 1) 0s, top 7s cubic-bezier(0.4, 1, 0.2, 1) 0s, transform 5s cubic-bezier(0.4, 0.0, 0.2, 1) 2s;
+}
+
+@keyframes rainRotate
+{
+from {transform: rotate(-250deg)}
+to {transform: rotate(110deg)}
+}
+
+@-webkit-keyframes rainRotate
+{
+from {transform: rotate(-250deg)}
+to {transform: rotate(110deg)}
+}
+
+.rain-animation{
+  animation: rainRotate 1.6s cubic-bezier(0.81, 0.03, 0.08, 0.97) infinite;
+  -webkit-animation: rainRotate 1.6s cubic-bezier(0.81, 0.03, 0.08, 0.97) infinite;
+}

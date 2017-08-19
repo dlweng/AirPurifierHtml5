@@ -1,0 +1,47 @@
+{
+  "private": true,
+  "scripts": {
+    "start": "PORT=1111 roadhog server",
+    "build": "roadhog build"
+  },
+  "dependencies": {
+    "antd-mobile": "^1.0.8",
+    "babel-plugin-import": "^1.1.0",
+    "babel-runtime": "^6.9.2",
+    "dva": "^1.2.1",
+    "echarts": "^3.6.2",
+    "es6-promise": "^4.1.1",
+    "fetch-jsonp": "^1.1.1",
+    "isomorphic-fetch": "^2.2.1",
+    "lib-flexible": "^0.3.2",
+    "mdi": "^1.8.36",
+    "perfect-scrollbar": "^0.6.13",
+    "react": "^15.4.0",
+    "react-dom": "^15.4.0",
+    "react-intl": "^2.2.3",
+    "redux-thunk": "^2.2.0",
+    "swiper": "^3.4.2"
+  },
+  "devDependencies": {
+    "babel-core": "^6.13.0",
+    "babel-eslint": "^7.1.1",
+    "babel-loader": "^6.2.0",
+    "babel-plugin-dva-hmr": "^0.2.0",
+    "babel-plugin-istanbul": "^2.0.1",
+    "babel-plugin-transform-object-assign": "^6.8.0",
+    "babel-plugin-transform-runtime": "^6.9.0",
+    "babel-polyfill": "^6.7.4",
+    "babel-preset-es2015": "^6.18.0",
+    "babel-preset-react": "^6.1.18",
+    "eslint": "^3.12.2",
+    "eslint-config-airbnb": "^13.0.0",
+    "eslint-plugin-babel": "^3.1.0",
+    "eslint-plugin-import": "^2.2.0",
+    "eslint-plugin-jsx-a11y": "^2.2.3",
+    "eslint-plugin-react": "^6.8.0",
+    "expect": "^1.20.2",
+    "husky": "^0.12.0",
+    "redbox-react": "^1.3.2",
+    "roadhog": "^0.4.0"
+  }
+}
